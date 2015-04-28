@@ -59,6 +59,7 @@ runBlog bcfg =
           SessionCfg
           { sc_cookieName = "funblog"
           , sc_sessionTTL = 5 * 60 * 50
+          , sc_sessionExpandTTL = True
           , sc_sessionIdEntropy = 40
           , sc_emptySession = Nothing
           , sc_persistCfg = Nothing
